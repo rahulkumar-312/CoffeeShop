@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="navbar">
+            <div class="navbar-brand">
+                <a href="#">Organic Coffee</a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="navbar-actions">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#" ><i class="fas fa-shopping-cart"></i></a>
+                <div class="cart-badge" id="cartBadge">0</div>
+                
+            </div>
+    </section>
+    <div class="main-container">
+        <div class="overlay-main-container">
+            <div class="filter">
+                <label for="vol" class="price-range">$Price</label>
+                <input type="range" id="vol" max="10" min="0">
+                <span id="range-value" >All</span>
+            </div>
+            <div class="products">
+                <div class="sku">
+                    <img src="./img/coffee-1.jpg" alt="coffee">
+                    <h2>Sibaristica</h2>
+                    <h3>$9.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-7.jpg" alt="coffee">
+                    <h2>Nescafe</h2>
+                    <h3>$1.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-3.jpg" alt="coffee">
+                    <h2>Guatemala</h2>
+                    <h3>$2.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-4.jpg" alt="coffee">
+                    <h2>Artz Coffee</h2>
+                    <h3>$5.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-5.jpg" alt="coffee">
+                    <h2>Burnt Timber</h2>
+                    <h3>$3.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-6.jpg" alt="coffee">
+                    <h2>Base Blend</h2>
+                    <h3>$7.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-8.jpg" alt="coffee">
+                    <h2>Organat Spirit</h2>
+                    <h3>$8.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-9.jpg" alt="coffee">
+                    <h2>Dibek Kahvesi</h2>
+                    <h3>$6.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+                <div class="sku">
+                    <img src="./img/coffee-10.jpg" alt="coffee">
+                    <h2>Cold Brew</h2>
+                    <h3>$4.99 Only</h3>
+                    <button class="addtocart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
